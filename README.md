@@ -72,7 +72,7 @@ The default values of the [parameters of the node](#parameters) can be modified 
 
 Open a terminal console and enter the following command to start the node with customized parameters:
 
-    ros2 launch ldlidar_node ldlidar_bringup.launch.py
+    ros2 launch ldlidar_node ldlidar_rviz2.launch.py
 
 The [`ldlidar_bringup.launch.py`](ldlidar_node/launch/ldlidar_bringup.launch.py) starts a ROS 2 Container, which loads the LDLidar Component as a plugin.
 
